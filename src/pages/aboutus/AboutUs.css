@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:  20;
+    padding: 20px 00px;
+    max-width: 84.125rem;
+    width: 115%;
+    gap: 2.75rem;
+  }
+  .img2 {
+    width: 20%;
+    vertical-align: top;
+  }
+  

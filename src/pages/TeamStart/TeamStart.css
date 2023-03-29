@@ -1,0 +1,249 @@
+
+.content {
+    overflow: hidden;
+    background: #145686;
+    background-image: -o-linear-gradient(bottom, #E5D69F 0%, #145686 100%);
+    background-image: -moz-linear-gradient(bottom, #E5D69F 0%, #145686 100%);
+    background-image: -webkit-linear-gradient(bottom, #E5D69F 0%, #145686 100%);
+    background-image: -ms-linear-gradient(bottom, #E5D69F 0%, #145686 100%);
+    background-image: linear-gradient(to bottom, #E5D69F 0%, #145686 100%);
+    min-height: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.tmm-team .tmm-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.tmm-team .tmm-container:before,
+.tmm-team .tmm-container:after {
+    display: table;
+    content: " ";
+}
+
+.tmm-team .tmm-container:after {
+    clear: both;
+}
+
+.tmm-team .tmm-row {
+    margin-right: -40px;
+    margin-left: -40px;
+    text-align: center;
+}
+
+.tmm-team .tmm-row:before,
+.tmm-team .tmm-row:after {
+    display: table;
+    content: " ";
+}
+
+.tmm-team .tmm-row:after {
+    clear: both;
+}
+
+.section {
+    position: relative;
+    padding: 50px 0;
+}
+
+.section.paddinf-off {
+    padding-top: 0;
+}
+
+.section.padding-bottom {
+    padding-bottom: 120px;
+}
+
+
+
+.title-1 {
+  color: #010A35;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.1875rem;
+  font-weight: 600;
+  margin-bottom: 2.25rem;
+  text-align: center;
+  padding: 45px 15px;
+}
+
+.tmm-team .item-circled {
+    background-color: #fff;
+    text-align: center;
+    width: 263px;
+    margin: 0 24px;
+    display: inline-block;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -webkit-transition: -webkit-transform .35s ease, font .35s ease;
+    transition: transform .35s ease, font .35s ease;
+}
+
+.tmm-team .item-circled:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.tmm-team .item-circled .face-container {
+    padding: 30px 15px 0px 5px;
+}
+
+.tmm-team .item-circled .face {
+    width: 235px;
+    height: 235px;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+.tmm-team .item-circled:hover .face {
+    border-color: #fa4f24;
+    border-width: 3px;
+}
+
+.tmm-team .item-circled .item-content {
+    text-align: center;
+    position: relative;
+}
+
+.tmm-team .item-circled .title {
+    font-family: 'B612', sans-serif;
+}
+
+.tmm-team .item-circled .title h3 {
+  
+    font-size: 30px;
+    color: #666666;
+    padding: 10px 5px;
+    font-weight: 400;
+}
+
+.tmm-team .item-circled .title h4 {
+    font-size: 16px;
+    color: #fff;
+    background-color: #2e43a8;
+    padding: 12px 5px;
+    font-weight: 400;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+
+.tmm-team .item-circled:hover .title h4 {
+  
+    background-color: #5c6fcf;
+    padding: 5px 5px;
+}
+
+.tmm-team .item-circled .item-content p {
+    padding: 10px 17px;
+    text-align: center;
+    font-family: "B612", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #757575;
+}
+
+.tmm-team .item-circled .footer {
+    padding: 4px 5px;
+}
+
+.tmm-team .item-circled .social-icons1 {
+    font-size: 0;
+}
+
+.tmm-team .item-circled .social-icons1 li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    width: 20%;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.tmm-team .item-circled .social-icons1 li > a {
+    font-size: 20px;
+    color: #f09e8e;
+    margin-left: 30px;
+    background-color: #e7e7e7;
+    cursor: pointer;
+    padding: 17px 9px;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform-origin: 50% bottom 0;
+    -moz-transform-origin: 50% bottom 0;
+    transform-origin: 50% bottom 0;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.tmm-team .item-circled .social-icons1 li > a::before {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 7px 0;
+    background: #007f6e;
+    color: rgb(255, 255, 255);
+    font-family: "Font Awesome 5 Brands";
+    font-size: 24px;
+
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transform-origin: 50% bottom 0;
+    -moz-transform-origin: 50% bottom 0;
+    transform-origin: 50% bottom 0;
+}
+
+.tmm-team .item-circled .social-icons1 li:nth-child(1) a::before {
+    content: "\f39e";
+    background: #314177;
+}
+
+.tmm-team .item-circled .social-icons1 li:nth-child(2) a::before {
+    content: "\f099";
+    background: #2ca5bd;
+}
+
+.tmm-team .item-circled .social-icons1 li:nth-child(3) a::before {
+    content: "\f0e1";
+    background: #d40000;
+}
+
+.tmm-team .item-circled .social-icons1 li:nth-child(4) a::before {
+    content: "\f0d5";
+    background: #950000;
+}
+
+.tmm-team .item-circled .social-icons1 li:nth-child(5) a::before {
+    content: "\ef56";
+    background: #9b1539;
+}
+
+
+
+
+
+.tmm-team .hgroup {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 40px 5px;
+}

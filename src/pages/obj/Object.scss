@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+h1 {
+    font-size: 2.2em;
+}
+
+.main-click-slider {
+    width: 80%;
+    margin: 150px auto;
+}
+
+// base
+.flip-obj {
+    position: relative;
+    padding: 10px 15px;
+    
+        }
+
+
+// custom
+.flip-obj {
+    position: relative;
+    display: inline-block;
+    width: 345px;
+    
+
+    >.front,
+    >.back {
+        display: block;
+        color: white;
+        width: inherit;
+        background-size: cover !important;
+        background-position: center !important;
+        height: 320px;
+        padding: 1em 2em;
+        background: #313131;
+        border-radius: 10px;
+
+        p {
+            font-size: 0.9125rem;
+            line-height: 160%;
+            color: #999;
+        }
+    }
+}
+
+.text-shadow {
+    
+    color: #111;
+    text-align: start;
+    padding: 15px 10px;
+    font-size: 25px;
+}
+
+
+.flip-bottom{
+background-color: #fff;
+}
+
+
+
+
+.obj-text{
+    margin: 10px 0;
+}

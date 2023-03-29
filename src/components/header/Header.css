@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.AppBar-header{
+  background-color: rgba(0, 0, 0, 0.50) !important;
+  transition: .5s !important;
+}
+
+.imgLng {
+  width: 20px;
+  height: 2vh;
+  margin-right: 4px;
+}
+
+
+
+.chooseLng{
+  display: flex;
+  display: none;
+}
+
+.lng{
+  border: 1px solid;
+}
+
+@media (max-width: 900px){
+  .chooseLng{
+    width: 130px;
+    margin-bottom: 10px !important;
+    padding: 10px;
+    display: block;
+  }
+}
+
